@@ -23,8 +23,5 @@ public class NumerosmotorsController {
     }
 
 
-    @GetMapping("/getAll")
-    public List<NumerosmotorsDto> getAll() {
-        return service.getAllData();
-    }
+   
 }
