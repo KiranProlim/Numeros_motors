@@ -1,7 +1,16 @@
 package com.prolim.numerosmotors.dto;
 
-public class NumerosmotorsDto {
+import java.io.Serializable;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table
+public class NumerosmotorsDto implements Serializable {
+
+	@Id
     private int id;
     private String name;
 
