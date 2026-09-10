@@ -17,7 +17,7 @@ public class NumerosmotorsService {
     public NumerosmotorsDto saveData(NumerosmotorsDto dto) {
         return repo.save(dto);
     }
-
+// NM-513 Implement Charge Sense Detection Logic
     public List<NumerosmotorsDto> getAllData() {
         return repo.getAll();
     }
