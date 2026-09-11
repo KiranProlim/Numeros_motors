@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <style>
+        body{
+            margin:0;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:linear-gradient(135deg,#4facfe,#00f2fe);
+            font-family:Arial,sans-serif;
+        }
+
+        .card{
+            background:white;
+            padding:40px;
+            border-radius:15px;
+            box-shadow:0 0 20px rgba(0,0,0,0.2);
+            text-align:center;
+        }
+
+        h1{
+            color:#007bff;
+        }
+
+        button{
+            padding:10px 20px;
+            background:#007bff;
+            color:white;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>Welcome to Spring Boot</h1>
+    <p>Thymeleaf UI Page ,Created By Kiran</p>
+
+    <button onclick="showMsg()">
+        Click Me
+    </button>
+</div>
+
+<script>
+function showMsg(){
+    alert("Spring Boot Thymeleaf Working!");
+}
+</script>
+
+</body>
+</html>
