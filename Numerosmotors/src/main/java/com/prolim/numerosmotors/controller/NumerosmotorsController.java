@@ -19,6 +19,7 @@ public class NumerosmotorsController {
 	@Autowired
 	private NumerosmotorsService service;
 
+	//DEMO-395 - TASK-001 Configure Agile Template	
 	@GetMapping("/home")
 	public String home() {
 		return "home";
