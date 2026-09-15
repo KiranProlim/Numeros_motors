@@ -20,7 +20,7 @@ public class NumerosmotorsController {
 	private NumerosmotorsService service;
 
 	//DEMO-395 - TASK-001 Configure Agile Template	................................................
-	//hii this s kiran (java full stack developer)
+	
 	@GetMapping("/home")
 	public String home() {
 		return "home";
