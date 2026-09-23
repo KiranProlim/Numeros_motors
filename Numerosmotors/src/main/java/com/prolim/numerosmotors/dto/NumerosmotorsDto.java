@@ -9,32 +9,44 @@ import jakarta.persistence.Table;
 @Entity
 @Table
 public class NumerosmotorsDto implements Serializable {
-
 	@Id
-    private int id;
-    private String name;
+	private String id;
+	private String title;
+	private String status;
+	private String assignee;
 
-    public NumerosmotorsDto() {
-    }
+	public NumerosmotorsDto() {
+	}
 
-    public NumerosmotorsDto(int id, String name) {
-        this.id = id;
-        this.name = name;
-    }
+	public String getId() {
+		return id;
+	}
 
-    public int getId() {
-        return id;
-    }
+	public void setId(String id) {
+		this.id = id;
+	}
 
-    public void setId(int id) {
-        this.id = id;
-    }
+	public String getTitle() {
+		return title;
+	}
 
-    public String getName() {
-        return name;
-    }
+	public void setTitle(String title) {
+		this.title = title;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public String getAssignee() {
+		return assignee;
+	}
+
+	public void setAssignee(String assignee) {
+		this.assignee = assignee;
+	}
 }
