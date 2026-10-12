@@ -17,7 +17,7 @@ public class NumerosmotorsController {
     @Autowired
     private NumerosmotorsService service;
 
-    // DEMO-395 - TASK-001 Configure Agile Template
+    // NUME-514 - Implement charging status API	
 
     @GetMapping("/home")
     public String home() {
