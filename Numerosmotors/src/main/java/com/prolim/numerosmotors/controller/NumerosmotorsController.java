@@ -18,7 +18,7 @@ public class NumerosmotorsController {
     private NumerosmotorsService service;
 
     // NUME-514 - Implement charging status API	
-
+    //this is numerous_Motors Project
     @GetMapping("/home")
     public String home() {
         return "home";
